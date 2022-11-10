@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Oswald:wght@200;300;400&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #d9f2fb;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding-top: 30px;
+}
+.card {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 15px 40px;
+    background-color: #acc7db;
+    border: 1px solid #305e81;
+    border-radius: 20px;
+    color: #1b4769;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.avatar {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    width: 250px;
+    border-radius: 28px;
+}
+
+.info-text {
+    margin: 70px 0 30px 60px;
+    
+}
+
+.info-text h1 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .info-text {
+        margin: 30px 20px;
+    }
+}
+
+.hobby h4 {
+    text-align: center;
+}
+
+.hobby ul li {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.workExperience {
+    font-weight: 300;
+    border: 3px dashed;
+}
+.socNet {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+   transition: font-size .3s; 
+}
+
+a:hover {
+    color: rgb(112, 96, 36);
+    font-size: 1.1rem;
+}
+
+.btn {
+    padding: 15px 20px;
+    background: #305e81;
+    border-radius: 10px;
+    color:#acc7db;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.linkk {
+    padding: 10px 10px;
+}
+
+.workExperience h3{
+    text-align: center;
+}
+
+.workExperience {
+    margin-bottom: 40px;
+}
+.wE td {
+    padding: 5px 40px;
+    text-align: center;
+}
+
+.wE td:nth-child(even) {
+    background-color: #305e81;
+    border-radius: 5px;
+    color: #acc7db;
+}
+
+.wE {
+    width: 100%;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-row .form-group {
+   margin-right: 20px;
+   width: 50%;
+    /* display: inline-block; */
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #1b4769;
+    padding: 15px 0 10px;
+    outline: none;
+}
+
+@media (max-width:600px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
